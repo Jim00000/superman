@@ -52,7 +52,7 @@
 	}
 	{FuelBag
 		{volume %fuel}						;// Fuel capacity in Liters.
-		{rate (* 10 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
+		{rate (* 0 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
 		{remain %fuel}						;// Amount of fuel in vehicle when spawned.
 		{fuel "%type"}						;// Fuel type.
 	}
@@ -109,7 +109,7 @@
 	}
 	{FuelBag
 		{volume %fuel}						;// Fuel capacity in Liters.
-		{rate (* 10 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
+		{rate (* 0 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
 		{remain %fuel}						;// Amount of fuel in vehicle when spawned.
 		{fuel "%type"}						;// Fuel type.
 	}
@@ -137,7 +137,7 @@
 	}
 	{FuelBag
 		{volume %fuel }						;// Fuel capacity in Liters.
-		{rate (* 10 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
+		{rate (* 0 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
 		{remain %fuel }						;// Amount of fuel in vehicle when spawned.
 		{fuel "%type"}						;// Type of fuel used. "fuel" = petrol/gasoline. "diesel" = diesel.
 	}
@@ -165,7 +165,7 @@
 	}
 	{FuelBag
 		{volume %fuel}						;// Fuel capacity in Liters.
-		{rate (* 10 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
+		{rate (* 0 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
 		{remain %fuel}						;// Amount of fuel in vehicle when spawned.
 		{fuel "%type"}						;// Type of fuel used. "fuel" = petrol/gasoline. "diesel" = diesel.
 	}
@@ -210,7 +210,7 @@
 
 	{FuelBag
 		{volume %fuel}						;// Fuel capacity in Liters.
-		{rate (* 20 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
+		{rate (* 0 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
 		{remain %fuel}						;// Amount of fuel in vehicle when spawned.
 		{fuel "fuel"}						;// Type of fuel used. "fuel" = petrol/gasoline. "diesel" = diesel.
 	}
@@ -240,7 +240,7 @@
 
 	{FuelBag
 		{volume %fuel}						;// Fuel capacity in Liters.
-		{rate (* 10 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
+		{rate (* 0 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
 		{remain %fuel}						;// Amount of fuel in vehicle when spawned.
 		{fuel "%type"}						;// Type of fuel used. "fuel" = petrol/gasoline. "diesel" = diesel.
 	}
