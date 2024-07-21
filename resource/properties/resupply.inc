@@ -862,7 +862,7 @@
 		}
 		{radius 			1000}			;// resupply radius in meter
 		{resupplyPeriod 	1}			;// resupply period in seconds
-		{regenerationPeriod 0}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 0.1}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				%liters}	;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
