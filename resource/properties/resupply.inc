@@ -855,7 +855,7 @@
 		{resupply
 			{item "flame_thrower" "ammo" 50 {value 1}}
 		}
-		{radius 			12}			;// resupply radius in meter
+		{radius 			1000}			;// resupply radius in meter
 		{resupplyPeriod 	1}			;// resupply period in seconds
 		{regenerationPeriod 0}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				%liters}	;// max number of resupplies (0 = unlimited)
