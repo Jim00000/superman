@@ -50,7 +50,7 @@
 		{pauseDuringPreparation false} ; controls if simulation is paused during preparation time
 		{impregnableTimeout		10}	; seconds. Spawn protection time
 		{floraRespawn			0}
-		{friendlyFire			1}
+		{friendlyFire			0}
 		{showPiercing			1}
 		{showDamageReports		1}
 		{enableBots				1}
