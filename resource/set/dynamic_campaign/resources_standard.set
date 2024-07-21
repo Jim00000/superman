@@ -30,9 +30,9 @@
 			}
 		}
 	}
-	{PaybackFactor 0.4}		;// MP paid back when loosing solider, squad or vehicle
-	{SellFactor 0.6}
-	{ScavengedVehicleSellFactor 0.6}		;// captured enemy vehicle 
+	{PaybackFactor 0.5}		;// MP paid back when loosing solider, squad or vehicle
+	{SellFactor 1.0}
+	{ScavengedVehicleSellFactor 0.8}		;// captured enemy vehicle 
 	{RiskFactor
 		{Low
 			{BotResources 1.0}
