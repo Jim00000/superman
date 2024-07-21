@@ -7,8 +7,9 @@
 	}
 	{enemy	;// not working in coop
 		{health 0.33}
-		{accuracy 0.33}
+		{accuracy 0.0000000001}
 		{grenade_timeout 1.5}		; modifier on FiringTimeout
+		{burst 0.0000000001}
 	}
 	{ally
 		{health 1.50}
