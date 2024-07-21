@@ -90,12 +90,12 @@ Purchases["conquest.rus"] = {
 
 				--{priority = 1.0, type = {"Infantry", "Team",}, unit = "single_medic(rus)"},
 				{priority = 1.0, type = {"Infantry", "Team", "AT",}, unit = "single_riflegrenade(rus)"},
-				{priority = 0.5, type = {"Infantry", "Team",}, unit = "single_ap_miner(rus)"},
-				{priority = 0.5, type = {"Infantry", "Team",}, unit = "single_at_miner(rus)"},
+				-- {priority = 0.5, type = {"Infantry", "Team",}, unit = "single_ap_miner(rus)"},
+				-- {priority = 0.5, type = {"Infantry", "Team",}, unit = "single_at_miner(rus)"},
 				{priority = 0.5, type = {"Infantry", "Team",}, unit = "single_engineer(rus)"},
 				{priority = 1.5, type = {"Infantry", "Team",}, unit = "single_flamer(rus)"},
 				--{priority = 1.0, type = {"Infantry", "Team",}, unit = "single_tankman(rus)"},
-				{priority = 2.0, type = {"Infantry", "Team",}, unit = "single_sniper(rus)"},
+				-- {priority = 2.0, type = {"Infantry", "Team",}, unit = "single_sniper(rus)"},
 				--]]
 
 			-- Cannons
@@ -127,22 +127,22 @@ Purchases["conquest.rus"] = {
 				{priority = 2.0, type = {"Cannon", "AT",}, unit = "76mm_zis3"},
 				{priority = 0.5, type = {"Cannon", "AT",}, unit = "100mm_bs3"},
 				--Mortars
-				{priority = 1.5, type = {"Cannon", "Mortar",}, unit = "82mm_bm37"},
-				{priority = 1.0, type = {"Cannon", "Mortar",}, unit = "120mm_pm38"},
+				-- {priority = 1.5, type = {"Cannon", "Mortar",}, unit = "82mm_bm37"},
+				-- {priority = 1.0, type = {"Cannon", "Mortar",}, unit = "120mm_pm38"},
 				--Infantry_Support
 				{priority = 1.5, type = {"Cannon", "Support",}, unit = "76mm_m1927"},
 				{priority = 1.5, type = {"Cannon", "Support",}, unit = "76mm_m43"},
 				--Artillery
-				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "107mm_m1910_30"},
-				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "122mm_m1910"},
-				{priority = 1.0, type = {"Cannon", "Artillery",}, unit = "122mm_m30"},
-				{priority = 1.5, type = {"Cannon", "Artillery",}, unit = "122mm_a19"},
-				{priority = 1.5, type = {"Cannon", "Artillery",}, unit = "152mm_ml20"},
-				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "152mm_br2"},
-				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "203mm_b4"},
-				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "280mm_br5"},
-				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "300mm_m30"},
-				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "300mm_m31"},
+				-- {priority = 0.5, type = {"Cannon", "Artillery",}, unit = "107mm_m1910_30"},
+				-- {priority = 0.5, type = {"Cannon", "Artillery",}, unit = "122mm_m1910"},
+				-- {priority = 1.0, type = {"Cannon", "Artillery",}, unit = "122mm_m30"},
+				-- {priority = 1.5, type = {"Cannon", "Artillery",}, unit = "122mm_a19"},
+				-- {priority = 1.5, type = {"Cannon", "Artillery",}, unit = "152mm_ml20"},
+				-- {priority = 0.1, type = {"Cannon", "Artillery",}, unit = "152mm_br2"},
+				-- {priority = 0.1, type = {"Cannon", "Artillery",}, unit = "203mm_b4"},
+				-- {priority = 0.1, type = {"Cannon", "Artillery",}, unit = "280mm_br5"},
+				-- {priority = 0.5, type = {"Cannon", "Artillery",}, unit = "300mm_m30"},
+				-- {priority = 0.1, type = {"Cannon", "Artillery",}, unit = "300mm_m31"},
 				--]]
 
 			-- Wheeled vehicles
@@ -150,12 +150,12 @@ Purchases["conquest.rus"] = {
 				{priority = 0.5, type = {"Vehicle", "MG",}, unit = "m72"},
 				{priority = 1.0, type = {"Vehicle", "AA",}, unit = "gaz_aaa_maximx4"},
 				{priority = 0.1, type = {"Vehicle", "AA",}, unit = "gaz_aaa_72k"},
-				{priority = 0.5, type = {"Vehicle", "AA", "AT",}, unit = "yag10_29k"},
+				-- {priority = 0.5, type = {"Vehicle", "AA", "AT",}, unit = "yag10_29k"},
 				{priority = 1.0, type = {"Vehicle", "AA",}, unit = "zis5_dshk"},
-				{priority = 1.0, type = {"Vehicle", "Artillery",}, unit = "zis6_bm8_48"},
-				{priority = 1.0, type = {"Vehicle", "Artillery",}, unit = "zis6_bm13_16"},
-				{priority = 1.0, type = {"Vehicle", "Artillery",}, unit = "bm13_studebaker"},
-				{priority = 1.0, type = {"Vehicle", "Artillery",}, unit = "bm31_12"},
+				-- {priority = 1.0, type = {"Vehicle", "Artillery",}, unit = "zis6_bm8_48"},
+				-- {priority = 1.0, type = {"Vehicle", "Artillery",}, unit = "zis6_bm13_16"},
+				-- {priority = 1.0, type = {"Vehicle", "Artillery",}, unit = "bm13_studebaker"},
+				-- {priority = 1.0, type = {"Vehicle", "Artillery",}, unit = "bm31_12"},
 				--{priority = 1.5, type = {"Vehicle",  "Unarmed", "Transport",}, unit = "gaz67"},
 				{priority = 1.5, type = {"Vehicle", "MG",}, unit = "gaz67b"},
 				{priority = 0.5, type = {"Armored", "MG",}, unit = "fai_m"},
@@ -185,7 +185,7 @@ Purchases["conquest.rus"] = {
 				{priority = 0.5, type = {"Tank", "Light",}, unit = "t40"},
 				{priority = 1.0, type = {"Tank", "Light",}, unit = "t30"},
 				{priority = 3.0, type = {"Tank", "Light",}, unit = "t60"},
-				{priority = 0.1, type = {"Tank", "Light", "Artillery",}, unit = "t60_bm8_24"},
+				-- {priority = 0.1, type = {"Tank", "Light", "Artillery",}, unit = "t60_bm8_24"},
 				{priority = 0.1, type = {"Tank", "Light",}, unit = "t50"},
 				{priority = 3.0, type = {"Tank", "Light",}, unit = "t70"},
 				{priority = 3.0, type = {"Tank", "Light",}, unit = "t70m"},
@@ -252,16 +252,16 @@ Purchases["conquest.rus"] = {
 
 			-- Self-Propelled Guns
 				---[[
-				{priority = 0.1, type = {"Tank", "Light", "Support",}, unit = "su26"},
-				{priority = 0.1, type = {"Tank", "Light", "AT",}, unit = "zis30"},
-				{priority = 3.0, type = {"Tank", "Light", "Support",}, unit = "su76"},
-				{priority = 1.5, type = {"Tank", "Medium", "AT",}, unit = "su85"},
-				{priority = 0.5, type = {"Tank", "Medium", "AT",}, unit = "su85m"},
-				{priority = 1.0, type = {"Tank", "Medium", "AT",}, unit = "su100"},
-				{priority = 1.5, type = {"Tank", "Medium", "Support",}, unit = "su122"},
-				{priority = 1.0, type = {"Tank", "Heavy", "AT",}, unit = "su152"},
-				{priority = 2.0, type = {"Tank", "Heavy", "AT",}, unit = "isu122s"},
-				{priority = 2.0, type = {"Tank", "Heavy", "AT",}, unit = "isu152"}
+				-- {priority = 0.1, type = {"Tank", "Light", "Support",}, unit = "su26"},
+				-- {priority = 0.1, type = {"Tank", "Light", "AT",}, unit = "zis30"},
+				-- {priority = 3.0, type = {"Tank", "Light", "Support",}, unit = "su76"},
+				-- {priority = 1.5, type = {"Tank", "Medium", "AT",}, unit = "su85"},
+				-- {priority = 0.5, type = {"Tank", "Medium", "AT",}, unit = "su85m"},
+				-- {priority = 1.0, type = {"Tank", "Medium", "AT",}, unit = "su100"},
+				-- {priority = 1.5, type = {"Tank", "Medium", "Support",}, unit = "su122"},
+				-- {priority = 1.0, type = {"Tank", "Heavy", "AT",}, unit = "su152"},
+				-- {priority = 2.0, type = {"Tank", "Heavy", "AT",}, unit = "isu122s"},
+				-- {priority = 2.0, type = {"Tank", "Heavy", "AT",}, unit = "isu152"}
 				--]]
 			---]====]
 		}
