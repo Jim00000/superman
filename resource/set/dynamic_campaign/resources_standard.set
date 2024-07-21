@@ -2,7 +2,7 @@
 	{GlobalMaxCP -1}
 	;{StageCP 50 60 70 80 90}
 	{StageCP 9999 9999 9999 9999 9999}
-	{SpecialCP 50}					;// airstrikes special tab
+	{SpecialCP 9999}					;// airstrikes special tab
 	{EmplacementCP 50}				;// buildable with engineer
 	{Bots
 		{StartMP	1.50 min 500 attackerMultiplier 1.5}
