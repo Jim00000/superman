@@ -883,7 +883,7 @@
 		{mechanicResources {amount 10}{value 10}}
 		{radius 			12}			;// resupply radius in meter
 		{resupplyPeriod 	2}			;// resupply period in seconds
-		{regenerationPeriod 0}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 0.1}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				200}		;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
@@ -904,7 +904,7 @@
 		{mechanicResources {amount 10}{value 10}}
 		{radius 			12}			;// resupply radius in meter
 		{resupplyPeriod 	2}			;// resupply period in seconds
-		{regenerationPeriod 0}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 0.1}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				500}		;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
