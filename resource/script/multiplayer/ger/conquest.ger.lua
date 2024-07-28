@@ -79,12 +79,12 @@ Purchases["conquest.ger"] = {
 
 				--{priority = 1.0, type = {"Infantry", "Team",}, unit = "single_medic(ger)"},
 				{priority = 1.5, type = {"Infantry", "Team", "AT",}, unit = "single_riflegrenade(ger)"},
-				{priority = 0.5, type = {"Infantry", "Team",}, unit = "single_ap_miner(ger)"},
-				{priority = 0.5, type = {"Infantry", "Team",}, unit = "single_at_miner(ger)"},
+				-- {priority = 0.5, type = {"Infantry", "Team",}, unit = "single_ap_miner(ger)"},
+				-- {priority = 0.5, type = {"Infantry", "Team",}, unit = "single_at_miner(ger)"},
 				{priority = 0.5, type = {"Infantry", "Team",}, unit = "single_engineer(ger)"},
 				{priority = 1.5, type = {"Infantry", "Team",}, unit = "single_flamer(ger)"},
 				--{priority = 1.0, type = {"Infantry", "Team",}, unit = "single_tankman(ger)"},
-				{priority = 1.0, type = {"Infantry", "Team",}, unit = "single_sniper(ger)"},
+				-- {priority = 1.0, type = {"Infantry", "Team",}, unit = "single_sniper(ger)"},
 				--]]
 
 			-- Cannons
@@ -115,27 +115,26 @@ Purchases["conquest.ger"] = {
 				{priority = 1.5, type = {"Cannon", "AT",}, unit = "75mm_pak40"},
 				{priority = 1.0, type = {"Cannon", "AT",}, unit = "88mm_pak4341"},
 				--Mortars
-				{priority = 1.5, type = {"Cannon", "Mortar",}, unit = "80mm_sgrw34"},
-				{priority = 0.5, type = {"Cannon", "Mortar",}, unit = "100mm_nbw35"},
-				{priority = 1.0, type = {"Cannon", "Mortar",}, unit = "120mm_sgrw42"},
-				{priority = 0.1, type = {"Cannon", "Mortar",}, unit = "200mm_ldgw40"},
+				-- {priority = 1.5, type = {"Cannon", "Mortar",}, unit = "80mm_sgrw34"},
+				-- {priority = 0.5, type = {"Cannon", "Mortar",}, unit = "100mm_nbw35"},
+				-- {priority = 1.0, type = {"Cannon", "Mortar",}, unit = "120mm_sgrw42"},
+				-- {priority = 0.1, type = {"Cannon", "Mortar",}, unit = "200mm_ldgw40"},
 				--Infantry Support
-				{priority = 1.5, type = {"Cannon", "Support",}, unit = "75mm_leig18"},
-				{priority = 0.5, type = {"Cannon", "Support",}, unit = "75mm_lg40"},
-				{priority = 0.5, type = {"Cannon", "Support",}, unit = "150mm_sig33"},
+				-- {priority = 1.5, type = {"Cannon", "Support",}, unit = "75mm_leig18"},
+				-- {priority = 0.5, type = {"Cannon", "Support",}, unit = "75mm_lg40"},
+				-- {priority = 0.5, type = {"Cannon", "Support",}, unit = "150mm_sig33"},
 				--Artillery
-				{priority = 1.5, type = {"Cannon", "Artillery",}, unit = "105mm_lefh18"},
-				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "105mm_lefh18_40"},
-				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "105mm_sk18"},
-				{priority = 2.0, type = {"Cannon", "Artillery",}, unit = "150mm_sfh18"},
-				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "155mm_gpf_ger"},
-				{priority = 2.0, type = {"Cannon", "Artillery",}, unit = "170mm_k18"},
-				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "210mm_morser18"},
-				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "600mm_thor"},
+				-- {priority = 1.5, type = {"Cannon", "Artillery",}, unit = "105mm_lefh18"},
+				-- {priority = 0.1, type = {"Cannon", "Artillery",}, unit = "105mm_sk18"},
+				-- {priority = 2.0, type = {"Cannon", "Artillery",}, unit = "150mm_sfh18"},
+				-- {priority = 0.5, type = {"Cannon", "Artillery",}, unit = "155mm_gpf_ger"},
+				-- {priority = 2.0, type = {"Cannon", "Artillery",}, unit = "170mm_k18"},
+				-- {priority = 0.1, type = {"Cannon", "Artillery",}, unit = "210mm_morser18"},
+				-- {priority = 0.1, type = {"Cannon", "Artillery",}, unit = "600mm_thor"},
 				--Rocket Artillery
-				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "150mm_nebelwerfer41"},
-				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "210mm_nebelwerfer42"},
-				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "300mm_nebelwerfer42"},
+				-- {priority = 0.5, type = {"Cannon", "Artillery",}, unit = "150mm_nebelwerfer41"},
+				-- {priority = 0.5, type = {"Cannon", "Artillery",}, unit = "210mm_nebelwerfer42"},
+				-- {priority = 0.5, type = {"Cannon", "Artillery",}, unit = "300mm_nebelwerfer42"},
 				--]]
 
 			-- Wheel vehicles
@@ -171,9 +170,9 @@ Purchases["conquest.ger"] = {
 				{priority = 2.0, type = {"Armored", "AA",}, unit = "sdkfz250a_9"},
 				{priority = 0.1, type = {"Armored", "AT",}, unit = "sdkfz250a_11"},
 				{priority = 1.0, type = {"Armored", "MG", "Transport",}, unit = "sdkfz251c"},
-				{priority = 0.5, type = {"Armored", "Mortar",}, unit = "sdkfz251c_2"},
+				-- {priority = 0.5, type = {"Armored", "Mortar",}, unit = "sdkfz251c_2"},
 				{priority = 1.0, type = {"Armored", "MG", "Transport",}, unit = "sdkfz251d_1"},
-				{priority = 0.5, type = {"Armored", "Artillery",}, unit = "sdkfz251d_1_stuka"},
+				-- {priority = 0.5, type = {"Armored", "Artillery",}, unit = "sdkfz251d_1_stuka"},
 				{priority = 0.5, type = {"Armored", "MG",}, unit = "sdkfz251d_16"},
 				{priority = 0.1, type = {"Armored", "AA",}, unit = "sdkfz251d_17"},
 				{priority = 0.1, type = {"Armored", "AA",}, unit = "sdkfz251d_21"},
@@ -184,7 +183,7 @@ Purchases["conquest.ger"] = {
 				{priority = 1.0, type = {"Armored", "AA",}, unit = "sdkfz7_2"},
 				{priority = 0.1, type = {"Vehicle", "AT",}, unit = "sdkfz10_pak38"},
 				{priority = 0.1, type = {"Armored", "AA", "AT",}, unit = "sdkfz8_flak18"},
-				{priority = 0.5, type = {"Armored", "Artillery",}, unit = "panzerwerfer42"},
+				-- {priority = 0.5, type = {"Armored", "Artillery",}, unit = "panzerwerfer42"},
 				--]]
 
 			-- Tanks
@@ -220,12 +219,12 @@ Purchases["conquest.ger"] = {
 				{priority = 2.5, type = {"Tank", "Heavy",}, unit = "panzer5a"},
 				{priority = 2.5, type = {"Tank", "Heavy",}, unit = "panzer5g"},
 
-				{priority = 0.1, type = {"Tank", "Heavy",}, unit = "panzerb2"},
-				{priority = 0.5, type = {"Tank", "Heavy",}, unit = "tiger1h"},
-				{priority = 1.5, type = {"Tank", "Heavy",}, unit = "tiger1e"},
+				-- {priority = 0.1, type = {"Tank", "Heavy",}, unit = "panzerb2"},
+				-- {priority = 0.5, type = {"Tank", "Heavy",}, unit = "tiger1h"},
+				-- {priority = 1.5, type = {"Tank", "Heavy",}, unit = "tiger1e"},
 			--	{priority = 0.1, type = {"Tank", "Heavy",}, unit = "tiger1hunt"},
-				{priority = 0.5, type = {"Tank", "Heavy",}, unit = "tiger2p"},
-				{priority = 1.0, type = {"Tank", "Heavy",}, unit = "tiger2h"},
+				-- {priority = 0.5, type = {"Tank", "Heavy",}, unit = "tiger2p"},
+				-- {priority = 1.0, type = {"Tank", "Heavy",}, unit = "tiger2h"},
 				--]]
 
 			-- Self-Propelled Guns
@@ -238,9 +237,9 @@ Purchases["conquest.ger"] = {
 				{priority = 0.1, type = {"Tank", "Light", "AA",}, unit = "grille_m"},
 
 				{priority = 0.1, type = {"Tank", "Light", "Support",}, unit = "bison"},
-				{priority = 0.1, type = {"Tank", "Light", "Artillery",}, unit = "pz38h_w40"},
-				{priority = 1.0, type = {"Tank", "Light", "Artillery",}, unit = "grille_k"},
-				{priority = 1.0, type = {"Tank", "Light", "Artillery",}, unit = "wespe"},
+				-- {priority = 0.1, type = {"Tank", "Light", "Artillery",}, unit = "pz38h_w40"},
+				-- {priority = 1.0, type = {"Tank", "Light", "Artillery",}, unit = "grille_k"},
+				-- {priority = 1.0, type = {"Tank", "Light", "Artillery",}, unit = "wespe"},
 
 				{priority = 1.5, type = {"Tank", "Medium", "AT",}, unit = "stug3b"},
 				{priority = 1.5, type = {"Tank", "Medium", "AT",}, unit = "stug3f"},
@@ -257,12 +256,12 @@ Purchases["conquest.ger"] = {
 				{priority = 2.0, type = {"Tank", "Medium", "Support",}, unit = "stuh42"},
 				{priority = 0.1, type = {"Tank", "Medium", "Support",}, unit = "sig33b"},
 				{priority = 1.0, type = {"Tank", "Medium", "Support",}, unit = "sturmpanzer4"},
-				{priority = 1.0, type = {"Tank", "Medium", "Artillery",}, unit = "hummel"},
+				-- {priority = 1.0, type = {"Tank", "Medium", "Artillery",}, unit = "hummel"},
 
-				{priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "ferdinand"},
-				{priority = 1.0, type = {"Tank", "Heavy", "AT",}, unit = "jagdpanther"},
-				{priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "jagdtiger"},
-				{priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "sturmtiger"},
+				-- {priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "ferdinand"},
+				-- {priority = 1.0, type = {"Tank", "Heavy", "AT",}, unit = "jagdpanther"},
+				-- {priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "jagdtiger"},
+				-- {priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "sturmtiger"},
 				--]]
 			---]====]
 		}
