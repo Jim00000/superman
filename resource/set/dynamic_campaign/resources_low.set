@@ -15,18 +15,18 @@
 		{DefenseLevel
 			{level_1
 				{DefenseBudgetPlayer	0.5}	;// budget it multiplied by number of flags
-				{DefenseBudgetAI		0.5}	;// places defender units with bot StartMP * this factor (StartMP without attackermultiplier) for player side
+				{DefenseBudgetAI		0.0}	;// places defender units with bot StartMP * this factor (StartMP without attackermultiplier) for player side
 				{unlock games 0 progress 0.0}	;// number of games to unlock this level, or progress in percent (campaign progress bar)
 			}
 			{level_2							;// once level is reached previous level values are ignored only currently level is used
 				{DefenseBudgetPlayer	0.75}
-				{DefenseBudgetAI		0.75}
-				{unlock games 4 progress 0.4}
+				{DefenseBudgetAI		0.0}
+				;{unlock games 4 progress 0.0}
 			}
 			{level_3
 				{DefenseBudgetPlayer	1.0}
-				{DefenseBudgetAI		1.0}
-				{unlock games 8 progress 0.6}
+				{DefenseBudgetAI		0.0}
+				;{unlock games 8 progress 0.6}
 			}
 		}
 	}
