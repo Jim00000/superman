@@ -218,3 +218,29 @@
 
 	{Locomotive 1}
 )
+
+(define "mobility_small_boat"
+	{Locomotion
+		{Slow (* %speed 0.3)}									;// Slow speed. Mainly used in mission scripting
+		{Normal %speed}											;// Standard speed. Single click movement order
+		{Fast %speed}											;// Sprint speed. Double click movement order
+		{MaxSpeed %speed}										;// Max speed.
+		{maxSpeedAtMaxTurn %speedatmaxturn}						;// Max speed the vehicle is limited to when executing a tight turn.
+		{StartTime (* (/ %speed (/ %power %weight)) 7)}			;// Time for vehicle to accelerate from 0kph to max speed.
+		{SteerOn	20}											;// Steering wheel's turn speed, degrees per second.
+		{SteerOff	40}											;// Steering wheel's relaxed (no control applied) neutral position return speed, degrees per second.
+		{TurnRadius 5}											;// AI turning radius, lower = able to turn more without stopping.
+		{StopTime (+ 3.5 (* %weight (* %speed 0.020)))}			;// Time to come to a complete stop from max speed with out applying brakes. "Coasting".
+		{BrakeTime (+ 1.5 (* %weight (* %speed 0.004)))}		;// Time to come to a complete stop from max speed with brakes applied. 
+		{Gears 0.15 1}											;// Gearing affects acceleration curve.
+		{RearGears (/ %reverse %speed)};/						;// Reverse max speed.
+		{GearSwitchDelay 0.5}									;// Time to switch between forward and reverse.
+		{SplineRadius 0.75}										;// limit turning radius on the splines (path planner parameter), meters
+	}
+	{FuelBag
+		{volume %fuel }						;// Fuel capacity in Liters.
+		{rate (* 10 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
+		{remain %fuel }						;// Amount of fuel in vehicle when spawned.
+		{fuel "%type"}						;// Type of fuel used. "fuel" = petrol/gasoline. "diesel" = diesel.
+	}
+)
