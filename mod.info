@@ -1,0 +1,6 @@
+{mod
+	{name "Super Man"}
+	{desc "Several modifications for system mechanism and contents. Include \n  1. no fuel consumption \n  2. Raise radius resupply of ammo/fuel/engineer \n  3. Make Conquest campaign more easier \n  4. Miscellaneous changes"}
+	{minGameVersion "1.046"}
+	{maxGameVersion "any"}
+}
