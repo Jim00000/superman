@@ -101,6 +101,7 @@ Purchases["conquest.ger"] = {
 				--Anti Aircraft
 				{priority = 1.0, type = {"Cannon", "AA",}, unit = "20mm_flak30"},
 				{priority = 1.0, type = {"Cannon", "AA",}, unit = "20mm_flak38"},
+				{priority = 0.5, type = {"Cannon", "AA",}, unit = "20mm_flakvierling38"},
 				{priority = 0.5, type = {"Cannon", "AA",}, unit = "37mm_flak37"},
 				{priority = 0.1, type = {"Cannon", "AA",}, unit = "50mm_flak41"},
 				{priority = 1.0, type = {"Cannon", "AA", "AT",}, unit = "88mm_flak18"},
@@ -124,6 +125,7 @@ Purchases["conquest.ger"] = {
 				{priority = 0.5, type = {"Cannon", "Support",}, unit = "150mm_sig33"},
 				--Artillery
 				{priority = 1.5, type = {"Cannon", "Artillery",}, unit = "105mm_lefh18"},
+				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "105mm_lefh18_40"},
 				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "105mm_sk18"},
 				{priority = 2.0, type = {"Cannon", "Artillery",}, unit = "150mm_sfh18"},
 				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "155mm_gpf_ger"},
@@ -158,7 +160,7 @@ Purchases["conquest.ger"] = {
 				--{priority = 1.0, type = {"Vehicle", "Unarmed", "Supply", "Fuel",}, unit = "blitz3_6_fuel"},
 				--{priority = 1.0, type = {"Vehicle", "Unarmed","Supply", "Engineer",}, unit = "blitz3_6_engineering"},
 				--{priority = 1.0, type = {"Vehicle", "Unarmed","Supply", "Ammo",}, unit = "sdkfz6_ammo"},
-				
+
 				--]]
 
 			-- Halftracks
@@ -178,6 +180,7 @@ Purchases["conquest.ger"] = {
 				{priority = 0.1, type = {"Armored", "AT",}, unit = "sdkfz251d_22"},
 				{priority = 0.1, type = {"Vehicle", "AA",}, unit = "sdkfz10_4"},
 				{priority = 1.0, type = {"Vehicle", "AA",}, unit = "sdkfz6_2"},
+				{priority = 1.0, type = {"Armored", "AA",}, unit = "sdkfz7_1"},
 				{priority = 1.0, type = {"Armored", "AA",}, unit = "sdkfz7_2"},
 				{priority = 0.1, type = {"Vehicle", "AT",}, unit = "sdkfz10_pak38"},
 				{priority = 0.1, type = {"Armored", "AA", "AT",}, unit = "sdkfz8_flak18"},
