@@ -1,7 +1,7 @@
 (define "bot_state"
 	{unitset
 		{value "conquest"}
-		{available "all infantry sniper armor light medium heavy artillery airborne mechanized"}
+		{available "infantry sniper armor light medium heavy artillery mechanized"}
 	}
 	{unitLimits ""}
 	{chargeFactors
@@ -79,7 +79,7 @@
 			{common
 				{unitset
 					{value "conquest"}
-					{available "all infantry sniper armor light medium heavy artillery airborne mechanized"}
+					{available "infantry sniper armor light medium heavy artillery mechanized"}
 				}
 			}
 			{bots
