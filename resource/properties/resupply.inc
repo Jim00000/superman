@@ -33,8 +33,8 @@
 ;// Light weaponry
 	{item "mortarger_80" "he"		"ammo" 1  {value 5}}
 	{item "mortarger_80" "sm"		"ammo" 1  {value 5}}
-	{item "mortarger_100" "he"		"ammo" 1  {value 5}}
-	{item "mortarger_100" "sm"		"ammo" 1  {value 5}}
+	{item "mortarger_100" "he"		"ammo" 1  {value 10}}
+	{item "mortarger_100" "sm"		"ammo" 1  {value 10}}
 	{item "mortarger_120" "he"		"ammo" 1  {value 15}}
 
 ;// Grenade
@@ -607,6 +607,7 @@
 
 (define "items_explosives"
 ;// explosives
+	{item "dynamite_ger_x7"						1 {value 15}}
 	{item "geballteladung_3kg"					1 {value 15}}
 	{item "satchel_charge_rus"					1 {value 15}}
 	{item "satchel_charge_usa"					1 {value 15}}
@@ -621,6 +622,7 @@
 	{item "pmd" "mine" 							1 {value 5}}
 	{item "m2" "mine" 							1 {value 5}}
 	{item "m6" "mine" 							1 {value 5}}
+	{item "luhas" "mine" 						1 {value 5}}
 
 	{item "m39" "mine" 							1 {value 10}}
 	{item "tm_35" "mine" 						1 {value 10}}

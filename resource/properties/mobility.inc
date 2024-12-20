@@ -149,12 +149,12 @@
 		{Fast %speed}											;// Sprint speed. Double click movement order
 		{MaxSpeed %speed}
 		{StartTime	(+ 1.25 (/ %weight 4000))};/
-		{TurnTime	(- (+ (/ %weight 500) (/ 100 %speed)) 4)}
+		{TurnTime	(- (+ (/ %weight 500) (/ 50 %speed)) 0)}
 		{BrakeTime	(+ 0.25 (/ %weight 10000))};/
 		{StopTime	(+ 0.35 (/ %weight 4000))};/
 		{TurnRadius	(+ 2 (/ %weight 5000))};/
-		{TurnStart	(+ 0.65 (/ %weight 1500))};/
-		{TurnStop	(+ 0.65 (/ %weight 2500))};/
+		{TurnStart	(+ 0.65 (/ %weight 5500))};/
+		{TurnStop	(+ 0.65 (/ %weight 5500))};/
 		{Gears		0.35 0.5 0.7 1.0}
 		{RearGears	0.33 0.75}
 		{MaxSlope	60}
