@@ -434,8 +434,9 @@
 
 	{item "bulletrus_152_l47"	"he"		"ammo" 1 {value 50}}
 
+	(mod not "mp"
 	{item "bulletrus_180"		"he"		"ammo" 1 {value 60}}
-
+	)
 	{item "bulletrus_203"		"he"		"ammo" 1 {value 100}}
 
 	{item "bulletrus_280"		"he"		"ammo" 1 {value 175}}
