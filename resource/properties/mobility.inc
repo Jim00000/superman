@@ -37,8 +37,8 @@
 		{MaxSpeed %speed}																	;// Max speed.
 		{maxSpeedAtMaxTurn (* %speed (* (/ %track 30) (/ %power (* %weight 5))))}			;// Direct Control, Max speed the vehicle is limited to when executing a tight turn.
 		{TurnTime (/ 360 %traverse)};/														;// Direct Control, Time it takes to do a full 360 degree at max turn speed, fetching custom define
-		{TurnStart (+ 0.75 (* (/ %weight 6) 0.04))};/										;// Direct Control, Time for vehicle to from 0°/s rotation speed to max rotation speed.
-		{TurnStop (+ 0.75 (* (/ %weight 6) 0.04))};/										;// Direct Control, Time for vehicle to from max rotation speed to 0°/s rotation speed to max rotation speed.
+		{TurnStart (+ 0.6 (* (/ %weight 6) 0.05))};/										;// Direct Control, Time for vehicle to from 0°/s rotation speed to max rotation speed.
+		{TurnStop (+ 0.6 (* (/ %weight 6) 0.05))};/										;// Direct Control, Time for vehicle to from max rotation speed to 0°/s rotation speed to max rotation speed.
 		;{TurnRadius (+ 8 (+ (/ %weight 30) (/ (* 1000 %weight) (* %traverse %power))))}	;// AI turning radius, lower = able to turn more without stopping.
 		{TurnRadius (+ 1 (+ (/ %speed 12)  (/ %weight 60)))}								;// New turning radius to help reduce "stop and neutral" turns for tanks
 		{StartTime (* 5 (/ %speed (/ %power %weight)))}										;// Time for vehicle to accelerate from 0kph to max speed.
@@ -236,6 +236,32 @@
 		{RearGears (/ %reverse %speed)};/						;// Reverse max speed.
 		{GearSwitchDelay 0.5}									;// Time to switch between forward and reverse.
 		{SplineRadius 0.75}										;// limit turning radius on the splines (path planner parameter), meters
+	}
+	{FuelBag
+		{volume %fuel }						;// Fuel capacity in Liters.
+		{rate (* 10 (/ %fuel %range))};/	;// Fuel consumption rate. Based on off-road range of vehicle.
+		{remain %fuel }						;// Amount of fuel in vehicle when spawned.
+		{fuel "%type"}						;// Type of fuel used. "fuel" = petrol/gasoline. "diesel" = diesel.
+	}
+)
+
+(define "mobility_medium_boat"
+	{Locomotion
+		{Slow (* %speed 0.3)}									;// Slow speed. Mainly used in mission scripting
+		{Normal (* %speed 0.6)}									;// Standard speed. Single click movement order
+		{Fast (* %speed 0.8)}									;// Sprint speed. Double click movement order
+		{MaxSpeed %speed}										;// Max speed.
+		{maxSpeedAtMaxTurn %speedatmaxturn}						;// Max speed the vehicle is limited to when executing a tight turn.
+		{StartTime (* 30 (/ %speed (/ %power %weight)))}		;// Time for vehicle to accelerate from 0kph to max speed.
+		{SteerOn	7.5}											;// Steering wheel's turn speed, degrees per second.
+		{SteerOff	15}											;// Steering wheel's relaxed (no control applied) neutral position return speed, degrees per second.
+		{TurnRadius 5}											;// AI turning radius, lower = able to turn more without stopping.
+		{StopTime (+ 3.5 (* %weight (* %speed 0.004)))}			;// Time to come to a complete stop from max speed with out applying brakes. "Coasting".
+		{BrakeTime (+ 1.5 (* %weight (* %speed 0.002)))}		;// Time to come to a complete stop from max speed with brakes applied. 
+		{Gears 0.5 0.7 1.0}										;// Gearing affects acceleration curve.
+		{RearGears (/ %reverse %speed)};/						;// Reverse max speed.
+		{GearSwitchDelay 0.5}									;// Time to switch between forward and reverse.
+		{SplineRadius 3}										;// limit turning radius on the splines (path planner parameter), meters
 	}
 	{FuelBag
 		{volume %fuel }						;// Fuel capacity in Liters.
