@@ -126,10 +126,10 @@ Purchases["conquest.ger"] = {
 				--Artillery
 				{priority = 1.5, type = {"Cannon", "Artillery",}, unit = "105mm_lefh18"},
 				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "105mm_lefh18_40"},
-				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "105mm_sk18"},
+				{priority = 1.5, type = {"Cannon", "Artillery",}, unit = "105mm_sk18"},
 				{priority = 2.0, type = {"Cannon", "Artillery",}, unit = "150mm_sfh18"},
 				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "155mm_gpf_ger"},
-				{priority = 2.0, type = {"Cannon", "Artillery",}, unit = "170mm_k18"},
+				{priority = 0.5, type = {"Cannon", "Artillery",}, unit = "170mm_k18"},
 				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "210mm_morser18"},
 				{priority = 0.1, type = {"Cannon", "Artillery",}, unit = "600mm_thor"},
 				--Rocket Artillery
