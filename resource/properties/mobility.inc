@@ -201,9 +201,9 @@
 		{turnRadius	(* 0.3 %turn)} 													;// radius to do a 360° turn in meters
 		(mod "mp"
 			{Slow	(* 0.7 (/ (* %speed %power) (* %weight %aerodynamics)))};/		;// Slow speed. Mainly used in mission scripting
-			{Normal	(* 1.0 (/ (* %speed %power) (* %weight %aerodynamics)))};/		;// Standard speed. Single click movement order
-			{Fast	(* 1.0 (/ (* %speed %power) (* %weight %aerodynamics)))};/		;// Sprint speed. Double click movement order
-			{Maxspeed (* 1.0	(/ (* %speed %power) (* %weight %aerodynamics)))} ;/;// max speed while in flight mode in kph
+			{Normal	(* 1.1 (/ (* %speed %power) (* %weight %aerodynamics)))};/		;// Standard speed. Single click movement order
+			{Fast	(* 1.1 (/ (* %speed %power) (* %weight %aerodynamics)))};/		;// Sprint speed. Double click movement order
+			{Maxspeed (* 1.1	(/ (* %speed %power) (* %weight %aerodynamics)))} ;/;// max speed while in flight mode in kph
 			{turnRadius (* 0.3 %turnMP)} 											;// radius to do a 360° turn in meters
 		)
 	}
