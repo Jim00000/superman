@@ -28,7 +28,6 @@ Purchases["conquest.ger"] = {
 
 				{priority = 1.0, type = {"Infantry", "Squad",}, unit = "squad_volksg_con(ger)"},
 				{priority = 1.0, type = {"Infantry", "Squad",}, unit = "squad_volksg_sturm_con(ger)"},
-				{priority = 1.0, type = {"Infantry", "Squad",}, unit = "squad_volksg_sturm_con(ger)"},
 				{priority = 1.0, type = {"Infantry", "Squad",}, unit = "squad_volksg_heavy_con(ger)"},
 
 				{priority = 1.0, type = {"Infantry", "Squad",}, unit = "squad_recon_motor_con"},
@@ -170,9 +169,11 @@ Purchases["conquest.ger"] = {
 				{priority = 2.0, type = {"Armored", "MG",}, unit = "sdkfz250a_1"},
 				{priority = 2.0, type = {"Armored", "AA",}, unit = "sdkfz250a_9"},
 				{priority = 0.1, type = {"Armored", "AT",}, unit = "sdkfz250a_11"},
+				{priority = 0.5, type = {"Armored", "MG", "Transport",}, unit = "sdkfz251b"},
 				{priority = 1.0, type = {"Armored", "MG", "Transport",}, unit = "sdkfz251c"},
 				{priority = 0.5, type = {"Armored", "Mortar",}, unit = "sdkfz251c_2"},
 				{priority = 1.0, type = {"Armored", "MG", "Transport",}, unit = "sdkfz251d_1"},
+				{priority = 0.1, type = {"Armored", "MG", "Transport",}, unit = "unic304f"},
 				{priority = 0.5, type = {"Armored", "Artillery",}, unit = "sdkfz251d_1_stuka"},
 				{priority = 0.5, type = {"Armored", "MG",}, unit = "sdkfz251d_16"},
 				{priority = 0.1, type = {"Armored", "AA",}, unit = "sdkfz251d_17"},
@@ -209,6 +210,7 @@ Purchases["conquest.ger"] = {
 				{priority = 2.5, type = {"Tank", "Medium",}, unit = "panzer3m"},
 				{priority = 1.5, type = {"Tank", "Medium",}, unit = "panzer3n"},
 				{priority = 0.5, type = {"Tank", "Medium",}, unit = "panzer3_flamm"},
+				{priority = 0.5, type = {"Tank", "Medium",}, unit = "panzer4b"},
 				{priority = 1.0, type = {"Tank", "Medium",}, unit = "panzer4d"},
 				{priority = 1.5, type = {"Tank", "Medium",}, unit = "panzer4f1"},
 				{priority = 3.0, type = {"Tank", "Medium",}, unit = "panzer4f2"},
@@ -221,6 +223,7 @@ Purchases["conquest.ger"] = {
 				{priority = 2.5, type = {"Tank", "Heavy",}, unit = "panzer5g"},
 
 				{priority = 0.1, type = {"Tank", "Heavy",}, unit = "panzerb2"},
+				{priority = 0.1, type = {"Tank", "Heavy",}, unit = "flammpanzer_b2"},
 				{priority = 0.5, type = {"Tank", "Heavy",}, unit = "tiger1h"},
 				{priority = 1.5, type = {"Tank", "Heavy",}, unit = "tiger1e"},
 			--	{priority = 0.1, type = {"Tank", "Heavy",}, unit = "tiger1hunt"},
@@ -233,6 +236,7 @@ Purchases["conquest.ger"] = {
 				{priority = 1.0, type = {"Tank", "Light", "AT",}, unit = "panzerjager1"},
 				{priority = 2.0, type = {"Tank", "Light", "AT",}, unit = "marder2"},
 				{priority = 2.5, type = {"Tank", "Light", "AT",}, unit = "marder3m"},
+				{priority = 0.1, type = {"Tank", "Light", "AT",}, unit = "geschutzwagen_39h"},
 				{priority = 2.5, type = {"Tank", "Light", "AT",}, unit = "hetzer"},
 
 				{priority = 0.1, type = {"Tank", "Light", "AA",}, unit = "grille_m"},
@@ -242,6 +246,7 @@ Purchases["conquest.ger"] = {
 				{priority = 1.0, type = {"Tank", "Light", "Artillery",}, unit = "grille_k"},
 				{priority = 1.0, type = {"Tank", "Light", "Artillery",}, unit = "wespe"},
 
+				{priority = 0.5, type = {"Tank", "Medium", "AT",}, unit = "stug3a"},
 				{priority = 1.5, type = {"Tank", "Medium", "AT",}, unit = "stug3b"},
 				{priority = 1.5, type = {"Tank", "Medium", "AT",}, unit = "stug3f"},
 				{priority = 3.0, type = {"Tank", "Medium", "AT",}, unit = "stug3g"},
