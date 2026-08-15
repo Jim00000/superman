@@ -4,10 +4,10 @@ Purchases["conquest.ger"] = {
 			---[====[
 			-- Infantry
 				---[[
-				--{priority = 1.0, type = {"Infantry", "Team", "Command",}, unit = "single_officer(ger)"},
-				--{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "squad_officer_con(ger)"},
-				--{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "squad_officer_kubel_con"},
-				--{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "squad_officer_250_3_con"},
+				{priority = 1.0, type = {"Infantry", "Team", "Command",}, unit = "single_officer(ger)"},
+				{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "squad_officer_con(ger)"},
+				{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "squad_officer_kubel_con"},
+				{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "squad_officer_250_3_con"},
 
 				--T1
 				{priority = 1.5, type = {"Infantry", "Squad",}, unit = "squad_osttruppen_con(ger)"},
@@ -94,25 +94,25 @@ Purchases["conquest.ger"] = {
 				--{priority = 1.0, type = {"Cannon", "Spotlight",}, unit = "150mm_sw34_ger"},
 
 				--HMGs
-				{priority = 1.5, type = {"Cannon", "MG",}, unit = "mg34_lafette"},
-				{priority = 1.5, type = {"Cannon", "MG",}, unit = "mg42_lafette"},
-				{priority = 0.1, type = {"Cannon", "MG",}, unit = "panzernest_krab_ger"},
+				-- {priority = 1.5, type = {"Cannon", "MG",}, unit = "mg34_lafette"},
+				-- {priority = 1.5, type = {"Cannon", "MG",}, unit = "mg42_lafette"},
+				-- {priority = 0.1, type = {"Cannon", "MG",}, unit = "panzernest_krab_ger"},
 				--Anti Aircraft
-				{priority = 1.0, type = {"Cannon", "AA",}, unit = "20mm_flak30"},
-				{priority = 1.0, type = {"Cannon", "AA",}, unit = "20mm_flak38"},
-				{priority = 0.5, type = {"Cannon", "AA",}, unit = "20mm_flakvierling38"},
-				{priority = 0.5, type = {"Cannon", "AA",}, unit = "37mm_flak37"},
-				{priority = 0.1, type = {"Cannon", "AA",}, unit = "50mm_flak41"},
-				{priority = 1.0, type = {"Cannon", "AA", "AT",}, unit = "88mm_flak18"},
-				{priority = 1.0, type = {"Cannon", "AA", "AT",}, unit = "88mm_flak36"},
+				-- {priority = 1.0, type = {"Cannon", "AA",}, unit = "20mm_flak30"},
+				-- {priority = 1.0, type = {"Cannon", "AA",}, unit = "20mm_flak38"},
+				-- {priority = 0.5, type = {"Cannon", "AA",}, unit = "20mm_flakvierling38"},
+				-- {priority = 0.5, type = {"Cannon", "AA",}, unit = "37mm_flak37"},
+				-- {priority = 0.1, type = {"Cannon", "AA",}, unit = "50mm_flak41"},
+				-- {priority = 1.0, type = {"Cannon", "AA", "AT",}, unit = "88mm_flak18"},
+				-- {priority = 1.0, type = {"Cannon", "AA", "AT",}, unit = "88mm_flak36"},
 				--Anti Tank
-				{priority = 0.5, type = {"Cannon", "AT",}, unit = "28mm_pzb41"},
-				{priority = 1.5, type = {"Cannon", "AT",}, unit = "37mm_pak36"},
-				{priority = 0.5, type = {"Cannon", "AT",}, unit = "47mm_pakt"},
-				{priority = 1.5, type = {"Cannon", "AT",}, unit = "50mm_pak38"},
-				{priority = 1.0, type = {"Cannon", "AT",}, unit = "75mm_pak9738"},
-				{priority = 1.5, type = {"Cannon", "AT",}, unit = "75mm_pak40"},
-				{priority = 1.0, type = {"Cannon", "AT",}, unit = "88mm_pak4341"},
+				-- {priority = 0.5, type = {"Cannon", "AT",}, unit = "28mm_pzb41"},
+				-- {priority = 1.5, type = {"Cannon", "AT",}, unit = "37mm_pak36"},
+				-- {priority = 0.5, type = {"Cannon", "AT",}, unit = "47mm_pakt"},
+				-- {priority = 1.5, type = {"Cannon", "AT",}, unit = "50mm_pak38"},
+				-- {priority = 1.0, type = {"Cannon", "AT",}, unit = "75mm_pak9738"},
+				-- {priority = 1.5, type = {"Cannon", "AT",}, unit = "75mm_pak40"},
+				-- {priority = 1.0, type = {"Cannon", "AT",}, unit = "88mm_pak4341"},
 				--Mortars
 				-- {priority = 1.5, type = {"Cannon", "Mortar",}, unit = "80mm_sgrw34"},
 				-- {priority = 0.5, type = {"Cannon", "Mortar",}, unit = "100mm_nbw35"},
@@ -241,7 +241,7 @@ Purchases["conquest.ger"] = {
 
 				{priority = 0.1, type = {"Tank", "Light", "AA",}, unit = "grille_m"},
 
-				{priority = 0.1, type = {"Tank", "Light", "Support",}, unit = "bison"},
+				-- {priority = 0.1, type = {"Tank", "Light", "Support",}, unit = "bison"},
 				-- {priority = 0.1, type = {"Tank", "Light", "Artillery",}, unit = "pz38h_w40"},
 				-- {priority = 1.0, type = {"Tank", "Light", "Artillery",}, unit = "grille_k"},
 				-- {priority = 1.0, type = {"Tank", "Light", "Artillery",}, unit = "wespe"},
@@ -259,15 +259,15 @@ Purchases["conquest.ger"] = {
 				{priority = 0.5, type = {"Tank", "Medium", "AA",}, unit = "wirbelwind"},
 				{priority = 0.1, type = {"Tank", "Medium", "AA",}, unit = "ostwind"},
 
-				{priority = 2.0, type = {"Tank", "Medium", "Support",}, unit = "stuh42"},
-				{priority = 0.1, type = {"Tank", "Medium", "Support",}, unit = "sig33b"},
-				{priority = 1.0, type = {"Tank", "Medium", "Support",}, unit = "sturmpanzer4"},
+				-- {priority = 2.0, type = {"Tank", "Medium", "Support",}, unit = "stuh42"},
+				-- {priority = 0.1, type = {"Tank", "Medium", "Support",}, unit = "sig33b"},
+				-- {priority = 1.0, type = {"Tank", "Medium", "Support",}, unit = "sturmpanzer4"},
 				-- {priority = 1.0, type = {"Tank", "Medium", "Artillery",}, unit = "hummel"},
 
-				-- {priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "ferdinand"},
-				-- {priority = 1.0, type = {"Tank", "Heavy", "AT",}, unit = "jagdpanther"},
-				-- {priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "jagdtiger"},
-				-- {priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "sturmtiger"},
+				{priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "ferdinand"},
+				{priority = 1.0, type = {"Tank", "Heavy", "AT",}, unit = "jagdpanther"},
+				{priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "jagdtiger"},
+				{priority = 0.1, type = {"Tank", "Heavy", "AT",}, unit = "sturmtiger"},
 				--]]
 			---]====]
 		}

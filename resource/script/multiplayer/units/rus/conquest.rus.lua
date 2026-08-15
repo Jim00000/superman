@@ -4,10 +4,10 @@ Purchases["conquest.rus"] = {
 			---[====[
 			-- Infantry
 				---[[
-				--{priority = 1.0, type = {"Infantry", "Team", "Command",}, unit = "single_officer(rus)"},
-				--{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "squad_officer_con(rus)"},
-				--{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "squad_officer_gaz_con"},
-				--{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "ba20_command"},
+				{priority = 1.0, type = {"Infantry", "Team", "Command",}, unit = "single_officer(rus)"},
+				{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "squad_officer_con(rus)"},
+				{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "squad_officer_gaz_con"},
+				{priority = 1.0, type = {"Infantry", "Squad", "Command",}, unit = "ba20_command"},
 
 				--T1
 				{priority = 1.0, type = {"Infantry", "Squad",}, unit = "squad_border(rus)"},
@@ -94,7 +94,7 @@ Purchases["conquest.rus"] = {
 				-- {priority = 0.5, type = {"Infantry", "Team",}, unit = "single_at_miner(rus)"},
 				{priority = 0.5, type = {"Infantry", "Team",}, unit = "single_engineer(rus)"},
 				{priority = 1.5, type = {"Infantry", "Team",}, unit = "single_flamer(rus)"},
-				--{priority = 1.0, type = {"Infantry", "Team",}, unit = "single_tankman(rus)"},
+				{priority = 1.0, type = {"Infantry", "Team",}, unit = "single_tankman(rus)"},
 				-- {priority = 2.0, type = {"Infantry", "Team",}, unit = "single_sniper(rus)"},
 				--]]
 
@@ -104,34 +104,34 @@ Purchases["conquest.rus"] = {
 				--{priority = 1.0, type = {"Cannon", "Supply", "Ammo",}, unit = "ap_2"},
 
 				--HMGs
-				{priority = 1.5, type = {"Cannon", "MG",}, unit = "maxim"},
-				{priority = 0.5, type = {"Cannon", "MG",}, unit = "ds39_stand"},
-				{priority = 1.0, type = {"Cannon", "MG",}, unit = "sg43_stand"},
-				{priority = 1.0, type = {"Cannon", "MG",}, unit = "dshk_stan"},
-				{priority = 1.0, type = {"Cannon", "AA",}, unit = "dshk_aa"},
+				-- {priority = 1.5, type = {"Cannon", "MG",}, unit = "maxim"},
+				-- {priority = 0.5, type = {"Cannon", "MG",}, unit = "ds39_stand"},
+				-- {priority = 1.0, type = {"Cannon", "MG",}, unit = "sg43_stand"},
+				-- {priority = 1.0, type = {"Cannon", "MG",}, unit = "dshk_stan"},
+				-- {priority = 1.0, type = {"Cannon", "AA",}, unit = "dshk_aa"},
 				--Anti_Aircraft
-				{priority = 0.5, type = {"Cannon", "AA",}, unit = "25mm_72k"},
-				{priority = 1.5, type = {"Cannon", "AA",}, unit = "37mm_61k"},
-				{priority = 0.5, type = {"Cannon", "AA", "AT",}, unit = "76mm_m1938"},
-				{priority = 1.5, type = {"Cannon", "AA", "AT",}, unit = "85mm_52k"},
+				-- {priority = 0.5, type = {"Cannon", "AA",}, unit = "25mm_72k"},
+				-- {priority = 1.5, type = {"Cannon", "AA",}, unit = "37mm_61k"},
+				-- {priority = 0.5, type = {"Cannon", "AA", "AT",}, unit = "76mm_m1938"},
+				-- {priority = 1.5, type = {"Cannon", "AA", "AT",}, unit = "85mm_52k"},
 				--Anti_Tank
-				{priority = 0.5, type = {"Cannon", "AT",}, unit = "37mm_m30"},
-				{priority = 0.5, type = {"Cannon", "AT",}, unit = "m41_ampulomet"},
-				{priority = 1.5, type = {"Cannon", "AT",}, unit = "45mm_m37"},
-				{priority = 1.0, type = {"Cannon", "AT",}, unit = "45mm_m42"},
-				{priority = 0.1, type = {"Cannon", "AT",}, unit = "57mm_zis2"},
-				{priority = 0.1, type = {"Cannon", "AT",}, unit = "76mm_bpk76"},
-				{priority = 1.0, type = {"Cannon", "AT",}, unit = "76mm_m1902"},
-				{priority = 0.5, type = {"Cannon", "AT",}, unit = "76mm_m1933"},
-				{priority = 0.5, type = {"Cannon", "AT",}, unit = "76mm_f22"},
-				{priority = 2.0, type = {"Cannon", "AT",}, unit = "76mm_zis3"},
-				{priority = 0.5, type = {"Cannon", "AT",}, unit = "100mm_bs3"},
+				-- {priority = 0.5, type = {"Cannon", "AT",}, unit = "37mm_m30"},
+				-- {priority = 0.5, type = {"Cannon", "AT",}, unit = "m41_ampulomet"},
+				-- {priority = 1.5, type = {"Cannon", "AT",}, unit = "45mm_m37"},
+				-- {priority = 1.0, type = {"Cannon", "AT",}, unit = "45mm_m42"},
+				-- {priority = 0.1, type = {"Cannon", "AT",}, unit = "57mm_zis2"},
+				-- {priority = 0.1, type = {"Cannon", "AT",}, unit = "76mm_bpk76"},
+				-- {priority = 1.0, type = {"Cannon", "AT",}, unit = "76mm_m1902"},
+				-- {priority = 0.5, type = {"Cannon", "AT",}, unit = "76mm_m1933"},
+				-- {priority = 0.5, type = {"Cannon", "AT",}, unit = "76mm_f22"},
+				-- {priority = 2.0, type = {"Cannon", "AT",}, unit = "76mm_zis3"},
+				-- {priority = 0.5, type = {"Cannon", "AT",}, unit = "100mm_bs3"},
 				--Mortars
 				-- {priority = 1.5, type = {"Cannon", "Mortar",}, unit = "82mm_bm37"},
 				-- {priority = 1.0, type = {"Cannon", "Mortar",}, unit = "120mm_pm38"},
 				--Infantry_Support
-				{priority = 1.5, type = {"Cannon", "Support",}, unit = "76mm_m1927"},
-				{priority = 1.5, type = {"Cannon", "Support",}, unit = "76mm_m43"},
+				-- {priority = 1.5, type = {"Cannon", "Support",}, unit = "76mm_m1927"},
+				-- {priority = 1.5, type = {"Cannon", "Support",}, unit = "76mm_m43"},
 				--Artillery
 				-- {priority = 0.5, type = {"Cannon", "Artillery",}, unit = "107mm_m1910_30"},
 				-- {priority = 0.5, type = {"Cannon", "Artillery",}, unit = "122mm_m1910"},
